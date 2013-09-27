@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreLocationController.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) CoreLocationController *CLController;
+@property (strong, nonatomic) IBOutlet UILabel *localizacionLabel;
 
 @end
