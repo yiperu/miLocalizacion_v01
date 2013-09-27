@@ -19,6 +19,7 @@
 		CB5BD19017F5B0CD00A7039D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BD18F17F5B0CD00A7039D /* ViewController.m */; };
 		CB5BD19317F5B0CD00A7039D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5BD19117F5B0CD00A7039D /* ViewController.xib */; };
 		CB5BD19A17F5B10D00A7039D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5BD19917F5B10D00A7039D /* CoreLocation.framework */; };
+		CB5BD19D17F5B1E600A7039D /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BD19C17F5B1E600A7039D /* CoreLocationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		CB5BD18F17F5B0CD00A7039D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB5BD19217F5B0CD00A7039D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CB5BD19917F5B10D00A7039D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB5BD19B17F5B1E600A7039D /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreLocationController.h; path = ../CoreLocationController.h; sourceTree = "<group>"; };
+		CB5BD19C17F5B1E600A7039D /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreLocationController.m; path = ../CoreLocationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				CB5BD18E17F5B0CD00A7039D /* ViewController.h */,
 				CB5BD18F17F5B0CD00A7039D /* ViewController.m */,
 				CB5BD19117F5B0CD00A7039D /* ViewController.xib */,
+				CB5BD19B17F5B1E600A7039D /* CoreLocationController.h */,
+				CB5BD19C17F5B1E600A7039D /* CoreLocationController.m */,
 				CB5BD17D17F5B0CD00A7039D /* Supporting Files */,
 			);
 			path = miLocalizacion_v01;
@@ -180,6 +185,7 @@
 				CB5BD18317F5B0CD00A7039D /* main.m in Sources */,
 				CB5BD18717F5B0CD00A7039D /* AppDelegate.m in Sources */,
 				CB5BD19017F5B0CD00A7039D /* ViewController.m in Sources */,
+				CB5BD19D17F5B1E600A7039D /* CoreLocationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
